@@ -1,0 +1,14 @@
+<virtualhost *:80>
+
+      # Admin email, Server Name (domain name) and any aliases
+      ServerAdmin j@lostwith.me
+      ServerName  www.lostwith.me
+      ServerAlias *.lostwith.me
+      ServerAlias lostwith.us www.lostwith.us *.lostwith.us
+      ServerAlias skymist.co.uk www.skymist.co.uk *.skymist.co.uk
+      ServerAlias lostwiththeclouds.com www.lostwiththeclouds.com *.lostwiththeclouds.com
+
+      # Redirect to
+      Redirect / http://lostwith.me 
+
+</virtualhost>

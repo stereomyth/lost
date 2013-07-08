@@ -1,0 +1,16 @@
+<virtualhost *:80>
+
+      # Admin email, Server Name (domain name) and any aliases
+      ServerAdmin j@lostwith.me
+      ServerName  lostwith.me
+
+      # Index file and Document Root (where the public files are located)
+      DirectoryIndex index.html
+      DocumentRoot /home/j/lost/live/
+
+      # Custom log file locations
+      LogLevel warn
+      ErrorLog  /home/j/lost/logs/error.log
+      CustomLog /home/j/lost/logs/access.log combined
+
+</virtualhost>
